@@ -3,7 +3,7 @@ import React, {useState} from "react";
 import './../styles/App.css';
 
 const App = () => {
-const [sum, setSum] = useState(3)
+const [sum, setSum] = useState(0)
 function calculateSum(e){
   
   setSum(sum + +e.target.value)
